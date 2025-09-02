@@ -147,7 +147,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group/btn flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg hover:scale-105 cursor-hover-scale pointer-events-none opacity-60"
+            className="group/btn flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg hover:scale-105 cursor-hover-scale"
           >
             <ExternalLink className="h-4 w-4 mr-2 group-hover/btn:rotate-12 transition-transform duration-300" />
             Live Demo
@@ -156,7 +156,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className={`pointer-events-none opacity-60 group/btn flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105 cursor-hover-scale ${
+            className={`group/btn flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105 cursor-hover-scale ${
               darkMode 
                 ? 'border border-gray-600 text-gray-300 hover:bg-gray-800 hover:border-blue-500' 
                 : 'border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-blue-400'
