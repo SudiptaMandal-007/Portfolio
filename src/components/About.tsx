@@ -58,7 +58,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
             <div className={`w-96 absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500`}></div>
             <div className={`w-96 relative p-2 rounded-full ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-2xl`}>
               <img
-                src={darkMode ? "/img/header-pic-d.png" : "/img/header-pic.png"}
+                src={darkMode ? "/img/pic-d.png" : "/img/pic.png"}
                 alt="Sudipta Mandal"
                 className="w-96 object-cover rounded-full group-hover:scale-105 transition-transform duration-500"
               />

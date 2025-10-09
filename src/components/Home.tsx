@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
             <div className={`p-2 rounded-full cursor-hover-scale backdrop-blur-sm ${darkMode ? 'bg-gray-800/50' : 'bg-white/50'
               }`}>
               <img
-                src={darkMode ? "/img/hero-pic.png" : "/img/hero-pic-d.png"}
+                src={darkMode ? "/img/pic-d.png" : "/img/pic.png"}
                 alt="Header"
                 className="w-24 object-contain rounded-full"
               />

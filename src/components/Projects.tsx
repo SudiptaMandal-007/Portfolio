@@ -7,6 +7,16 @@ interface ProjectsProps {
 
 const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   const projects = [
+    {
+    title: 'QuickChat',
+    description: 'QuickChat is a real-time chat app built using the MERN stack and Socket.io. It enables fast and smooth messaging between users.',
+    image: '/img/pro/quickchat.png',
+    technologies: ['React', 'Node.js','Express.js','Socket.io', 'MongoDb', 'Cloudinary', 'Tailwind Css'],
+    liveUrl: 'https://chat-app-007.vercel.app/',
+    githubUrl: 'https://github.com/SudiptaMandal-007/Chat-App.git',
+    date: 'Oct 2025',
+    featured: false,
+  },
   {
     title: 'NewsIts-News Website',
     description: 'NewsIts is a simple news app that shows top headlines in different categories. It also has a light/dark mode option.',
