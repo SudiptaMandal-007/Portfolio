@@ -40,7 +40,7 @@ A stunning, responsive portfolio website built for Computer Science Engineering 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/DipD007/Portfolio.git
+   git clone https://github.com/SudiptaMandal-007/Portfolio.git
    cd cse-portfolio
    ```
 
