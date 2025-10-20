@@ -79,7 +79,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               <p className={`text-lg leading-relaxed ${
                 darkMode ? 'text-gray-300' : 'text-gray-700'
               }`}>
-                As a fresher, I'm currently pursuing my degree while actively working on projects 
+                As a fresher, I'm currently complete my degree while actively working on projects 
                 that bridge theoretical knowledge with practical applications. I specialize in 
                 full-stack development with modern technologies like React, Node.js, and various 
                 web frameworks.

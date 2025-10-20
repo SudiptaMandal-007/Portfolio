@@ -68,7 +68,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href="/Resume/Resume.pdf"
+              href="/Resume/Sudipta-Resume.pdf"
               download
               className="group relative inline-block"
             >

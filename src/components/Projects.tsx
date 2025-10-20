@@ -17,6 +17,16 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
     date: 'Oct 2025',
     featured: false,
   },
+    {
+    title: 'CarePluse',
+    description: 'Carepluse is a real-time patient management system built with Next.js, AppWrite, and Twilio. It supports secure registration, appointment scheduling, and SMS notifications.',
+    image: '/img/pro/carepluse.png',
+    technologies: ['React.js', 'Next.js', 'Tailwind Css', 'AppWrite', 'Twilio'],
+    liveUrl: 'https://care-pluse-web.vercel.app/',
+    githubUrl: 'https://github.com/SudiptaMandal-007/CarePluse.git',
+    date: 'Oct 2025',
+    featured: false,
+  },
   {
     title: 'NewsIts-News Website',
     description: 'NewsIts is a simple news app that shows top headlines in different categories. It also has a light/dark mode option.',
